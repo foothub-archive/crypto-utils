@@ -1,5 +1,5 @@
 pipenv run python setup.py sdist bdist_wheel
-pipenv run python twine upload dist/*
+pipenv run twine upload dist/*
 # pipenv run twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
 rm -r dist build j_builds.egg-info

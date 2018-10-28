@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="j_crypto",
-    version="0.0.1",
+    version="0.1",
     author="Acciaioli Valverde",
     author_email="acci.valverde@gmail.com",
     description="Helper fucntions to deal with RSA keys",

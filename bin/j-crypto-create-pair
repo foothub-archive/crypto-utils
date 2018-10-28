@@ -1,7 +1,7 @@
 #!python
 import os
 
-from core.utils.crypto import PemKeyCreator
+from j_crypto import PemKeyCreator
 
 
 current_dir = os.path.abspath(os.path.dirname(''))

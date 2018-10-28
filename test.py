@@ -1,5 +1,5 @@
 import os
-from unittest import TestCase
+from unittest import TestCase, main
 
 from jwt import encode, decode
 from cryptography.hazmat.primitives import serialization
@@ -65,3 +65,8 @@ class TestJWTKeys(TestCase):
             token = encode(payload, private_key_bytes, algorithm=algorithm).decode('utf-8')
             decoded_payload = decode(token, public_key_bytes, algorithms=self.ALGORITHMS)
             self.assertEqual(payload, decoded_payload)
+
+
+if __name__ == '__main__':
+    main()
+

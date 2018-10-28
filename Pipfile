@@ -4,14 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyjwt = "*"
-cryptography = "*"
-pytest = "*"
 
 [dev-packages]
 twine = "*"
 wheel = "*"
 setuptools = "*"
+coverage = "*"
 
 [requires]
 python_version = "3.7"
